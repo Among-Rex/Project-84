@@ -50,7 +50,7 @@ function my_keydown(e) {
 		console.log("alphabet key");
 		img_image="spkey.png";
 	}
-	if((keyPressed >=10 && keyPressed<=15)) {
+	if((keyPressed == 46 || keyPressed == 16 || keyPressed == 13)) {
 		otherkey();
 		document.getElementById("d1").innerHTML = "You pressed Other Key";
 		console.log("alphabet key");
